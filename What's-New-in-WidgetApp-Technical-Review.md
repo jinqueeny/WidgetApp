@@ -65,7 +65,7 @@ widgetapp_admin -process _sfe -n <num_instances> -start
 **Note:** SFE restarts will terminate the `_stream` processes  automatically for any existing connections.
 
 
-> ## Approach
+> ## My Approach
 > I've organized the relevant administrative notes into sections for easy reference, with a specific section titled "What's Changed" to highlight any changes that system administrators and technical support teams should be aware of.
 >
 > ## Missing information
@@ -93,7 +93,7 @@ Most user actions, like search or scrolling, work by calling `_ajax`/endpoints, 
 
 Listen on port 200 for stream messages from any [`widgetApp_useraction_xxx` APIs](Link-to-the-full-API-reference).
 
-> ## Approach
+> ## My Approach
 > 
 > I focused on providing technical details for third-party developers on the Streaming API, including authentication, the connection URL and how to work with the new Streaming API. I also included information on how external systems that use the SFE must listen on port 200 for stream messages from certain APIs and how most user actions work. 
 >
